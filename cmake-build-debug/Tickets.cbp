@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tickets"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tickets">
+				<Option output="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Tickets.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tickets"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tickets/fast">
+				<Option output="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Tickets.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tickets/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Moni/CLionProjects/Tickets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/Date.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/Event.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/EventArr.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/Hall.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/HallArr.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/Ticket.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/headers/TicketArr.h">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/CommandParser.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/Date.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/Event.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/EventArr.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/Hall.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/HallArr.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/Ticket.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/TicketArr.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/sources/main.cpp">
+			<Option target="Tickets"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Moni/CLionProjects/Tickets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
