@@ -2,6 +2,7 @@
 // Created by Moni on 06-May-20.
 //
 
+#include <stdexcept>
 #include "../headers/HallArr.h"
 
 HallArr::HallArr() {
@@ -22,18 +23,21 @@ const std::vector<Hall> &HallArr::getHalls() const {
     return this->halls;
 }
 
-HallArr &HallArr::addHall( Hall &newHall) {
+//! adds a hall in the hall array
+HallArr &HallArr::addHall(Hall &newHall) {
     newHall.setId(this->getSize());
     this->halls.push_back(newHall);
     return *this;
 }
 
+//! returns a hall by given id
 Hall *HallArr::getHallByID(int id) {
-    for(int i=0;i<this->getSize();i++){
-        if(this->halls[i].getId() == id){
+    for (int i = 0; i < this->getSize(); i++) {
+        if (this->halls[i].getId() == id) {
             return &this->halls[i];
         }
     }
-    return nullptr;
+    throw std::invalid_argument("not found");
+
 }
 

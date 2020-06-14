@@ -11,6 +11,9 @@
 #include "EventArr.h"
 #include "HallArr.h"
 
+/*! \class TicketArr
+    \brief Клас който дефинира списък от билети
+*/
 class TicketArr {
 private:
     std::vector<Ticket> tickets;
@@ -22,24 +25,25 @@ public:
 
     TicketArr &addTicket(const Ticket &newTicket);
 
-    void removeTicketWithSeatNumberAndName(std::string name,int row,int seat, Date date);
+    void removeTicketWithSeatNumberAndName(const std::string &name, int row, int seat, const Date &date);
 
-    Ticket *getTicketWithID(std::string id);
+    Ticket *getTicketWithID(const std::string &id);
 
     void addHashedId(const Ticket &ticket);
 
 
-    void unbookTicket(std::string name, int row, int seat, Date date);
+    void unbookTicket(const std::string &name, int row, int seat, const Date &date);
 
-    void buyTicket(std::string name, int row, int seat,Date date);
+    void buyTicket(const std::string &name, int row, int seat, const Date &date);
 
     void
-    printHallTickets(Date startDate, Date endDate,
-                     Hall* hall,EventArr *eventArr);
-    void
-    printHallTickets(Date startDate, Date endDate,EventArr *eventArr);
+    printHallTickets(const Date &startDate, const Date &endDate,
+                     Hall *hall, EventArr *eventArr);
 
-    void getBookedTicketsWithHallName(Date date, Hall *hall, HallArr * halls);
+    void
+    printHallTickets(const Date &startDate, const Date &endDate, EventArr *eventArr);
+
+    void getBookedTicketsWithHallName(const Date &date, Hall *hall, HallArr *halls);
 };
 
 

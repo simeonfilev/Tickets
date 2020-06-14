@@ -10,6 +10,9 @@
 #include "Hall.h"
 #include "Date.h"
 
+/*! \class Ticket
+    \brief Клас който дефинира билет
+*/
 class Ticket {
 private:
     std::string hashedId;
@@ -24,13 +27,14 @@ private:
 public:
     Ticket();
 
-    Ticket(std::string name,int row,int seat,Date date,std::string note,std::string hall);
+    Ticket(const std::string &name, int row, int seat, const Date &date, const std::string &note,
+           const std::string &hall);
 
-    Ticket(std::string name,int row,int seat,Date date,std::string note);
+    Ticket(const std::string &name, int row, int seat, const Date &date, const std::string &note);
 
     std::string getId() const;
 
-    void setId(std::string id);
+    void setId(const std::string &id);
 
     const std::string &getName() const;
 
@@ -60,7 +64,7 @@ public:
 
     void setHashedId(const std::string &hashedId);
 
-    std::string hashIt(int row,int seat, std::string name);
+    std::string hashIt(int row, int seat, const std::string &name);
 
     bool isBought() const;
 

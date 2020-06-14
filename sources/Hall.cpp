@@ -13,7 +13,7 @@ void Hall::setId(int id) {
 }
 
 int Hall::getRows() const {
-    return  this->rows;
+    return this->rows;
 }
 
 void Hall::setRows(int rows) {

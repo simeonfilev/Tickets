@@ -9,36 +9,45 @@
 #include "Event.h"
 #include "Date.h"
 
+/*! \class EventArr
+    \brief Клас който дефинира списък от събития
+*/
 class EventArr {
 private:
     std::vector<Event> events;
+
     void destroy();
+
     void copy(const EventArr &other);
 
 public:
     EventArr();
+
     EventArr(const EventArr &other);
+
     EventArr &operator=(const EventArr &other);
+
     ~EventArr();
+
     EventArr &addEvent(const Event &newEvent);
+
     int getSize() const;
+
     bool existsEventOnThisDay(const Event &event);
 
     const std::vector<Event> &getEvents() const;
 
-    Event* getEventByNameAndDate(Date date, std::string name);
+    Event *getEventByNameAndDate(const Date &date, const std::string &name);
 
-    Event* getEventByDateAndHall(Date date, Hall hall);
+    Event *getEventByDateAndHall(const Date &date, const Hall &hall);
 
-    int getEventIndex(const Event &event);
+    void getBookedTicketsOnDateWithName(const Date &date, const std::string &name);
 
-    void getBookedTicketsOnDateWithName(Date date, std::string name);
+    int getNumberOfBookedTickets(const Event &e);
 
-    int getNumberOfBookedTickets(Event e);
+    void getBookedTicketsOnDate(const Date &date);
 
-    void getBookedTicketsOnDate(Date date);
-
-    void getBookedTicketsOnName(std::string name);
+    void getBookedTicketsOnName(const std::string &name);
 
     void printMostPopularEvents();
 };

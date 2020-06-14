@@ -45,7 +45,8 @@ int Ticket::getDay() const {
 Ticket::Ticket() {
 
 }
-Ticket::Ticket(std::string name, int row, int seat, Date date,std::string note) {
+
+Ticket::Ticket(const std::string &name, int row, int seat, const Date &date, const std::string &note) {
     this->setName(name);
     this->setNote(note);
     this->setRow(row);
@@ -65,7 +66,7 @@ Ticket::Ticket(std::string name, int row, int seat, Date date,std::string note) 
         int randomNumber = rand() % 10;
         hash += std::to_string(randomNumber);
     }
-    hash += std::to_string(seat );
+    hash += std::to_string(seat);
     for (int i = 0; i < 4; i++) {
         int randomNumber = rand() % 10;
         hash += std::to_string(randomNumber);
@@ -75,9 +76,10 @@ Ticket::Ticket(std::string name, int row, int seat, Date date,std::string note) 
 }
 
 
-Ticket::Ticket(std::string name, int row, int seat,Date date,std::string note,std::string hall) {
+Ticket::Ticket(const std::string &name, int row, int seat, const Date &date, const std::string &note,
+               const std::string &hall) {
     this->setHall(hall);
-    Ticket(name,row,seat,date,note);
+    Ticket(name, row, seat, date, note);
 }
 
 const std::string &Ticket::getHashedId() const {
@@ -99,7 +101,8 @@ void Ticket::setBought(bool bought) {
 std::string Ticket::getId() const {
     return this->hashedId;
 }
-void Ticket::setId(std::string id) {
+
+void Ticket::setId(const std::string &id) {
     this->hashedId = id;
 }
 
@@ -126,4 +129,5 @@ const Date &Ticket::getDate() const {
 void Ticket::setDate(const Date &date) {
     Ticket::date = date;
 }
+
 

@@ -17,7 +17,7 @@ const Hall Event::getHall() const {
     return this->hall;
 }
 
-void Event::setHall(Hall hall) {
+void Event::setHall(const Hall hall) {
     Event::hall = hall;
 }
 
@@ -29,8 +29,8 @@ Event::Event() {
 
 }
 
-Event::Event(std::string name, Hall hall, Date date) {
-    int seatsCount = ((hall.getRows() ) * (hall.getSeats()));
+Event::Event(const std::string &name, const Hall &hall, const Date &date) {
+    int seatsCount = ((hall.getRows()) * (hall.getSeats()));
     for (int i = 0; i < seatsCount; i++) {
         this->seats.push_back(-1);
     }
@@ -56,31 +56,35 @@ const std::vector<int> &Event::getSeats() const {
     return seats;
 }
 
-void Event::bookTicket(int row, int seat, std::string note) {
+//! books a ticket on given row and seat and if adds a note if exist
+void Event::bookTicket(int row, int seat, const std::string &note) {
     Hall h = this->getHall();
-    int seatToBook = ((row -1) * h.getSeats()) + (seat-1);
+    int seatToBook = ((row - 1) * h.getSeats()) + (seat - 1);
     this->seats[seatToBook] = 0;
     this->notes.insert(std::pair<std::pair<int, int>, std::string>(std::make_pair(row, seat), note));
 }
 
+//! unbooks a note on given row and seat
 void Event::unbookTicket(int row, int seat) {
-    //TODO delete note
+
     Hall h = this->getHall();
-    int seatToUnBook = ((row -1) * h.getSeats()) + (seat-1);
-    this->seats[seatToUnBook] =-1;
-    this->notes.erase(std::make_pair(row,seat));
+    int seatToUnBook = ((row - 1) * h.getSeats()) + (seat - 1);
+    this->seats[seatToUnBook] = -1;
+    this->notes.erase(std::make_pair(row, seat));  //delete old note
 }
 
+//! buys a ticket on given row and seat
 void Event::buyTicket(int row, int seat) {
     Hall h = this->getHall();
-    int seatToUnBook = ((row -1) * h.getSeats()) + (seat-1);
-    this->seats[seatToUnBook] =1;
+    int seatToUnBook = ((row - 1) * h.getSeats()) + (seat - 1);
+    this->seats[seatToUnBook] = 1;
 }
 
+//! return the number of tickets bought
 int Event::getBoughtTicketsCount() const {
-    int counter =0;
-    for(int i=0;i<this->getSeats().size();i++){
-        if(this->getSeats()[i] == 1){
+    int counter = 0;
+    for (int i = 0; i < this->getSeats().size(); i++) {
+        if (this->getSeats()[i] == 1) {
             counter++;
         }
     }
@@ -88,7 +92,7 @@ int Event::getBoughtTicketsCount() const {
 }
 
 bool Event::operator<(const Event &other) const {
-    return getBoughtTicketsCount()> other.getBoughtTicketsCount();
+    return getBoughtTicketsCount() > other.getBoughtTicketsCount();
 }
 
 const Date &Event::getDate() const {

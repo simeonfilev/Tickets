@@ -7,7 +7,9 @@
 
 #include <string>
 
-//номер, брой редове и брой места
+/*! \class Hall
+    \brief Клас който дефинира залата
+*/
 class Hall {
 private:
     int id;
@@ -15,7 +17,8 @@ private:
     int seats;
 public:
     Hall();
-    Hall(int rows,int seats);
+
+    Hall(int rows, int seats);
 
     int getId() const;
 
@@ -29,7 +32,7 @@ public:
 
     void setSeats(int seats);
 
-    bool operator==(const Hall& other) const;
+    bool operator==(const Hall &other) const;
 
 };
 

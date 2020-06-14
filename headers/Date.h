@@ -6,9 +6,12 @@
 #define TICKETS_DATE_H
 
 
+/*! \class Date
+    \brief Клас който дефинира датата
+*/
 class Date {
 private:
-    int day,month,year;
+    int day, month, year;
 
 public:
     Date();
@@ -27,11 +30,11 @@ public:
 
     void setYear(int year);
 
-    bool operator <(const Date& other) const;
-    bool operator <=(const Date& other) const;
-    bool operator ==(const Date& other) const;
+    bool operator<(const Date &other) const;
 
-    bool isBefore(const Date &other) const;
+    bool operator<=(const Date &other) const;
+
+    bool operator==(const Date &other) const;
 
     bool isLeapYear() const;
 };

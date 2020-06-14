@@ -8,6 +8,9 @@
 #include <vector>
 #include "Hall.h"
 
+/*! \class HallArr
+    \brief Клас който дефинира списък от зали
+*/
 class HallArr {
 private:
     std::vector<Hall> halls;
@@ -20,8 +23,10 @@ public:
     int getSize() const;
 
     const std::vector<Hall> &getHalls() const;
+
     HallArr &addHall(Hall &newHall);
-    Hall* getHallByID(int id);
+
+    Hall *getHallByID(int id);
 };
 
 
