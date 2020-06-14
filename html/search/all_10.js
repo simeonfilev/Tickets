@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['s_2etxt_235',['s.txt',['../s_8txt.html',1,'']]],
+  ['samedate_236',['sameDate',['../class_command_parser.html#a141b9226379c8b7d37d5642e4e5ae4f0',1,'CommandParser::sameDate()'],['../_event_arr_8cpp.html#a3c9100c6a77fdc0c0a8ff71c40efc238',1,'sameDate():&#160;EventArr.cpp']]],
+  ['save_237',['save',['../_command_parser_8cpp.html#a2afce0a47a93eee73a314d53e4890153a1ad9762e9641d1c24ee18f81307dee73',1,'CommandParser.cpp']]],
+  ['save_5fas_238',['save_as',['../_command_parser_8cpp.html#a2afce0a47a93eee73a314d53e4890153a7e74ff10723869010121b73c506aef02',1,'CommandParser.cpp']]],
+  ['savefile_239',['saveFile',['../class_command_parser.html#a81cf1a7d229b821bc4b4825459184ee6',1,'CommandParser']]],
+  ['seat_240',['seat',['../class_ticket.html#a0e721f9d14e04471b65264c22403b202',1,'Ticket']]],
+  ['seats_241',['seats',['../class_event.html#aca4c2587da5516f81831a40931f943bb',1,'Event::seats()'],['../class_hall.html#ada16f49d1015e1d39c70a29e85d8b3f8',1,'Hall::seats()']]],
+  ['setbought_242',['setBought',['../class_ticket.html#a5b6d13a2d45a625b7e7a5e2b7fbee10a',1,'Ticket']]],
+  ['setdate_243',['setDate',['../class_event.html#a7efeb05f52aafe19f45fd38312e2cc13',1,'Event::setDate()'],['../class_ticket.html#afd67723f4220aff94c13c82f0fac318d',1,'Ticket::setDate()']]],
+  ['setday_244',['setDay',['../class_date.html#a2f97b9d1ac5ef0ef6b6cab3335c5303d',1,'Date::setDay()'],['../class_ticket.html#ab79f7ccc4899a0721846bb4cc12b9212',1,'Ticket::setDay()']]],
+  ['sethall_245',['setHall',['../class_event.html#a2f0d37946691c5060de7b17545d0caf1',1,'Event::setHall()'],['../class_ticket.html#a3e7556671c3823cfcb21352dbcfb72d6',1,'Ticket::setHall()']]],
+  ['sethashedid_246',['setHashedId',['../class_ticket.html#a8bc06eb14e9e5b5547ec740cdf71b049',1,'Ticket']]],
+  ['setid_247',['setId',['../class_hall.html#a3ad7598e2d48fd009a738eaeffb81fea',1,'Hall::setId()'],['../class_ticket.html#a496f8dc1f2ea4beb0630ac8d9a8801ef',1,'Ticket::setId()']]],
+  ['setmonth_248',['setMonth',['../class_date.html#a23aa56014dd581d691607df5d4474f64',1,'Date::setMonth()'],['../class_ticket.html#af5f424a9435fe4675342d32b1fddf8b0',1,'Ticket::setMonth()']]],
+  ['setname_249',['setName',['../class_event.html#a1e58cb6f1adefe634483bab6ba45364e',1,'Event::setName()'],['../class_ticket.html#ad87ea3c1e13ab3540942c94d2b2f2be2',1,'Ticket::setName()']]],
+  ['setnote_250',['setNote',['../class_ticket.html#a48ad5e41ef136c3ab9fb03732c00a015',1,'Ticket']]],
+  ['setrow_251',['setRow',['../class_ticket.html#ae32a60e8931c2c9ea66b3ac47223eec4',1,'Ticket']]],
+  ['setrows_252',['setRows',['../class_hall.html#a13384660dc7b1a86fdf6a398c88e4a36',1,'Hall']]],
+  ['setseat_253',['setSeat',['../class_ticket.html#af66d7c344dc25203516e2f410927b7d6',1,'Ticket']]],
+  ['setseats_254',['setSeats',['../class_hall.html#a9580f2d5fe9f10c1889a772f2f71b5cd',1,'Hall']]],
+  ['setyear_255',['setYear',['../class_date.html#a895c4ae9868e43577cf59d9c679d7a71',1,'Date::setYear()'],['../class_ticket.html#adfd61f8ccf7a8f2824c6098b33eeb745',1,'Ticket::setYear()']]],
+  ['stringify_256',['STRINGIFY',['../_c_make_c_compiler_id_8c.html#a43e1cad902b6477bec893cb6430bd6c8',1,'STRINGIFY():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a43e1cad902b6477bec893cb6430bd6c8',1,'STRINGIFY():&#160;CMakeCXXCompilerId.cpp']]],
+  ['stringify_5fhelper_257',['STRINGIFY_HELPER',['../_c_make_c_compiler_id_8c.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d',1,'STRINGIFY_HELPER():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d',1,'STRINGIFY_HELPER():&#160;CMakeCXXCompilerId.cpp']]],
+  ['stringisdate_258',['stringIsDate',['../class_command_parser.html#a3e461f6bb5a32714d6055d1195a6f9e7',1,'CommandParser']]]
+];
